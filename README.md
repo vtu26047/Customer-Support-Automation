@@ -98,7 +98,7 @@ Add screenshots of:
 
 ## 👨‍💻 Author
 
-**Venkata Venkata Shanmukha Siva Kumar Valavala**
+**Venkata Shanmukha Siva Kumar Valavala**
 
 B.Tech Information Technology (2027)
 
