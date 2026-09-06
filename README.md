@@ -1,58 +1,105 @@
-# Salesforce DX Project
+# 🚀 Customer Support Automation using Salesforce CRM
 
-Salesforce DX is a development approach that brings source-driven development, team collaboration, and continuous integration to the Salesforce Platform. Instead of working directly in an org through a web browser, you work with metadata as source files in a local DX project, track changes in version control, and deploy through automated processes.
+A Salesforce CRM application that automates customer support operations, case assignment, SLA management, and API integration logging.
 
-This project template gets you started with the tools and structure you need to build Salesforce applications using source control, scratch orgs, and the Salesforce CLI.
+## 📌 Project Overview
 
-## Prerequisites
+Customer Support Automation helps support teams manage customer requests efficiently using Salesforce Flows, Apex, SOQL, and Custom Objects.
 
-Before you start, make sure you have:
+### Features
 
-- **Salesforce CLI** - Download from [developer.salesforce.com/tools/salesforcecli](https://developer.salesforce.com/tools/salesforcecli). See [Install Salesforce CLI](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_install_cli.htm) for details.
-- **VS Code with Salesforce Extension Pack** - See [Installation Instructions](https://developer.salesforce.com/docs/platform/sfvscode-extensions/guide/install.html) for details. Includes the Agentforce Vibes extension.
-- **A development org** - Sign up for a free Developer Edition org [here](https://developer.salesforce.com/signup).
-- **Dev Hub enabled** (optional, required to create scratch orgs) - You can enable Dev Hub in your development org under Setup > Dev Hub.  See [Provide Developers Access to Salesforce DX Tools](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_setup_dx_tools.htm).
+* Customer Registration and Management
+* Automated Case Creation
+* Automatic Case Assignment using Flow Builder
+* SLA Assignment Automation
+* API Integration Logging
+* Candidate & Recruitment Management
+* Job Application Tracking
 
-## Project Structure
+## 🛠️ Technologies Used
 
-Your DX project follows this structure:
+| Technology     | Purpose                 |
+| -------------- | ----------------------- |
+| Salesforce CRM | Application Platform    |
+| Apex           | Backend Business Logic  |
+| Flow Builder   | Process Automation      |
+| SOQL           | Database Queries        |
+| VS Code        | Development Environment |
+| Salesforce CLI | Deployment & Retrieval  |
+| Git & GitHub   | Version Control         |
 
-- **`force-app/main/default/`** - Your metadata source files live in this default package directory. You can configure additional package directories in the `sfdx-project.json` file.
-- **`config/`** - Scratch org definitions and project settings
-- **`scripts/`** - Automation scripts for common tasks
-- **`sfdx-project.json`** - Project manifest that defines package directories, namespace, API version, and other project-level settings
+## 📂 Custom Objects
 
-See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm).
+* Support Customer
+* Candidate
+* Position
+* Job Application
+* Interviewer
+* API Integration Log
+* Integration Log
 
-## Get Started
+## ⚙️ Apex Classes
 
-Ready to start developing? The [Get Started with Salesforce DX](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_get_started_dx.htm) guide walks you through your first project, from creating a scratch org to creating a simple Apex class or LWC to deploying your code to a sandbox.
+* CustomerAPIService
 
-## Common Salesforce CLI Commands
+## 🔄 Salesforce Flows
 
-Here are common CLI commands that you'll use the most:
+* Customer Support Case Flow
+* Case Assignment and SLA Flow
 
-- `sf org login web`: Authorize an org
-- `sf org open`: Open your org in a browser
-- `sf org create scratch`: Create a scratch org
-- `sf project deploy start`: Deploy metadata to your org
-- `sf project retrieve start`: Retrieve metadata from your org
-- `sf template generate <artifact>`: Scaffold new components, such as Apex classes and triggers, LWC components, Lightning apps, and more
-- `sf apex <command>`: Run Apex tests, run anonymous Apex blocks, and view logs
-- `sf data <command>`: Work with test data
-- `sf alias <command>`: Manage org aliases
-- `sf config <command>`: Configure CLI settings
+## 📁 Project Structure
 
-## Use Agentforce Vibes to Build Lightning Apps
+force-app/main/default/
+├── classes/
+├── flows/
+├── objects/
+├── layouts/
+├── permissionsets/
+└── manifest/
 
-Transform your ideas into custom Lightning apps that extend CRM workflows directly in Lightning Experience. Through natural conversations with Agentforce Vibes, implement custom objects and fields, complex business logic, and dynamic UI components. See [Build a Lightning App Using Agentforce Vibes](https://developer.salesforce.com/docs/platform/einstein-for-devs/guide/lexapp-overview.html).
+## 🚀 How to Deploy
 
-## Additional Resources
+1. Clone this repository.
+2. Login to a Salesforce org.
 
-- [Agentforce Vibes Developer Guide](https://developer.salesforce.com/docs/platform/einstein-for-devs/guide/einstein-overview.html)
-- [Salesforce CLI Installation Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/)
-- [Salesforce CLI Plugin Development Guide](https://developer.salesforce.com/docs/platform/salesforce-cli-plugin/guide/conceptual-overview.html)
-- [Salesforce VS Code Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
+```bash
+sf org login web
+```
 
+3. Deploy metadata.
+
+```bash
+sf project deploy start
+```
+
+4. Open Salesforce org.
+
+```bash
+sf org open
+```
+
+## 📸 Screenshots
+
+Add screenshots of:
+
+* Salesforce App Home
+* Customer Record Page
+* Case Automation Flow
+* API Integration Log
+* VS Code Apex Class
+
+## 🎯 Learning Outcomes
+
+* Built custom Salesforce CRM application.
+* Created automation using Flow Builder.
+* Developed Apex integration service.
+* Used SOQL for querying Salesforce records.
+* Managed project using Salesforce DX and GitHub.
+
+## 👨‍💻 Author
+
+**Venkata Venkata Shanmukha Siva Kumar Valavala**
+
+B.Tech Information Technology (2027)
+
+Vel Tech Rangarajan Dr. Sagunthala R&D Institute of Science and Technology
